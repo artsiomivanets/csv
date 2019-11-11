@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.13.0)
+    minitest-power_assert (0.3.0)
+      minitest
+      power_assert (>= 1.1)
+    power_assert (1.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  minitest-power_assert
+
+BUNDLED WITH
+   2.0.2
