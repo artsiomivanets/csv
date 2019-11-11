@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require './renderers'
-
 class Csv
   def initialize(csv_string, converter)
     parsed_data = parse(csv_string)

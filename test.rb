@@ -2,6 +2,7 @@
 
 require 'minitest/autorun'
 require './main.rb'
+require './renderers'
 
 def format_currency(number)
   return '0,01' if number.to_f < 0.01
